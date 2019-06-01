@@ -8,7 +8,7 @@ class CharDisplay extends AbstractDisplay
 {
 	private $ch;
 
-	public function __construct($ch)
+	public function __construct(string $ch)
 	{
 		$this->ch = $ch;
 	}
