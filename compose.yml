@@ -1,0 +1,10 @@
+services:
+  php:
+    build: .
+    container_name: phplib-php84
+    volumes:
+      - .:/var/www/html
+    working_dir: /var/www/html
+    stdin_open: true
+    tty: true
+    command: bash
